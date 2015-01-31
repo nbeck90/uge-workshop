@@ -1,0 +1,131 @@
+less moving_around.txt
+ - opens txt and then uses that as the input to 'less'
+
+ls
+ - lists the current files in your pwd
+
+ll > ll.txt
+ - write the output the the file name on the right
+
+open moving_around.txt
+ - open that file that's in the pwd
+
+history > moving_around.txt
+ - prints the history to a file named 'moving_around.txt'
+
+cd
+ - change drive
+
+pwd
+ - present working drive
+
+history | less
+ - pipes history into less
+
+../
+ - move upwards one drive
+
+history
+ - lists everything you have typed
+
+subl thing.py
+ - opens a file in Sublime called 'thing.py'
+
+subl
+ - opens Sublime
+
+ls ~
+ - lists the files in you home directory
+
+Desktop/Python/Website/css/
+ - move a bunch of directories down in one line
+
+cd /Users/nbeck/
+ - changes to the specific drive
+
+../../
+ - move 2 drives up
+
+..
+Python/
+cd ../
+/
+css/
+Website/
+Applications/
+a
+...
+cd Desktop/
+ll
+l
+lS
+LS
+man ls
+la
+ls -lF
+ls -lp
+ls -l
+ls -G
+ls -@
+ls -lrh
+ls -lr
+ls -lh
+ls -h
+man
+ls -ltr
+ls -r
+ls -lt
+ls -t
+cd /
+git config -l | sort
+echo $EDITOR
+echo #EDITOR
+echo $SHELL
+uname
+nbeck
+Users/
+echo $PATH
+subl /etc/paths
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+rm /usr/local/bin/subl 
+brew -b
+ln -s /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'nbeck90@uw.edu'
+git config --global user.name 'Nick Becker'
+git --version
+brew install git
+/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+ln -s /Applications/Sublime\ Text\.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+ln
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl .
+/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl/usr/local/bin/subl
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+ln -s /Applications/SublimeText.app/Contents/SharedSupport/bin/subl/usr/local/bin/subl
+subl ~/.config/fish/config.fis
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+curl -fsSL http://git.io/FzAR | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+brew update
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+sudo xcodebuild -license
+ipython
+pip install PdbSublimeTextSupport
+pip install ipython
+python get-pip.py
+curl -O https://bootstrap.pypa.io/get-pip.py
+sudo scutil --set HostName nbeck
+echo $HOSTNAME
+python
+python -V
+cd Steam.app
+cd Applications/
+Applications
