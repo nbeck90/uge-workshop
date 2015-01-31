@@ -1,0 +1,38 @@
+several branches from a repo, git-notes, and master.
+
+to create a branch we do 'git branch "name"'
+
+checkout a branch with 'git checkout'
+
+'touch' creates a new file or updates the timestamp
+of a file if it exists
+
+Git/Unix Workshop
+
+Don’t supply a path?
+
+
+Home Directory: /Users/nbeck
+
+cd /
+takes you to the root, every file leads from here (topmost)
+Absolute path starts with a / (no ambiguity)
+Generally, never delete anything from the root
+
+ls
+lists contents
+pink - links
+blue - folder
+red - programs
+ls -t (sorts by modification date, top down)
+ls -l (sorts alphabetically, long format)
+-r (reverses)
+
+man
+manual!
+
+relative paths, as in, relative to where you are currently
+
+.. means go up one directory
+. tells you this current directory right now
+subl . will open up your current directory in Sublime
