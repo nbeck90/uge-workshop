@@ -1,3 +1,6 @@
+a '.' before a file indicates that it is hidden. .git is one of these files.
+ - It is made when you create a repository.
+
 less moving_around.txt
  - opens txt and then uses that as the input to 'less'
 
@@ -46,20 +49,6 @@ cd /Users/nbeck/
 ../../
  - move 2 drives up
 
-..
-Python/
-cd ../
-/
-css/
-Website/
-Applications/
-a
-...
-cd Desktop/
-ll
-l
-lS
-LS
 man ls
 la
 ls -lF
